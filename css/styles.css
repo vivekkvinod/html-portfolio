@@ -1,0 +1,141 @@
+.header1 {
+
+  background-color: #A7FFE4;
+  margin-top: 0;
+  position: relative;
+}
+
+/*.job1 {
+  position: fixed;
+  left: 250px;
+}*/
+.job1 {
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  /*use rem to ignore all parent settings in fontsize*/
+  margin: 50px auto 0 auto;
+  color: #11999E;
+  line-height: 2;
+}
+
+.job, h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight:bold;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.clouds {
+  position: absolute;
+  /*set the container(header1) position as
+     relative to make the clouds position absolute to that container*/
+  left: 200px;
+  top: 140px;
+}
+
+hr {
+   width: 5%;
+   border: 10px dotted;
+   border-style: none none dotted;
+   color:#B7C4CF;
+}
+
+.middle-container {
+
+
+}
+
+.bottom-container {
+  margin-top: 40px;
+  background-color: #66BFBF;
+  height: 120px;
+  padding: 25px;
+
+}
+
+.vivek {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  right: 5px;
+}
+.profile{
+
+  width: 50%;
+  margin: auto;
+
+}
+.skill {
+  vertical-align: middle;
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.chillies {
+  vertical-align: middle;
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  /*use clear to make it not wrap around an element(images)*/
+  margin-left: 30px;
+}
+
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #30e3cb,#2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb,#2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.lastpara{
+
+  width: 50%;
+  margin: 0 auto 25px auto;
+  line-height: 2;
+}
